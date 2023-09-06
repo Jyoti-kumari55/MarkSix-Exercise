@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minions speak</title>
+    <style>
+        h1 {
+            background-color: burlywood;
+            height: 10vh;
+            width: 100%;
+            text-align: center;
+     
+        }
+
+        button{
+            background-color: aquamarine;
+            height: 5vh;
+            margin: 1rem 1rem;
+            padding: 0.5rem 1rem 2rem 1rem;
+        }
+        textarea {
+            background-color: aliceblue;
+            height: 15vh;
+            width: 84%;
+            margin: 1rem;
+            display: block;
+            padding: 1rem;
+
+        }
+        footer {
+            background: burlywood;
+            height: 20vh;
+            text-align: center;
+           
+        }
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 89%;
+            margin: 1rem;
+            padding: 1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Banana Talk</h1>
+    <textarea
+    id="text-area"
+    placeholder="Put your message here which you want to convert to banana language...">
+</textarea>
+<button id="btn-translate">Translate to Banana</button>
+
+<div id ="output-area" style="font-size: larger;">Output will come here 👇</div>
+    <div id="output"></div>
+
+
+    <script src="marksix.js"></script>
+
+    <footer>
+        <h4>About</h4>
+        <p>Are you a fan of minions? Did you know the gibberish they say
+            is an actual </br>language. Use the translator to convert your text from </br> english to
+            minion speak and banana language...
+        </p>
+    </footer>
+</body>
+</html>
