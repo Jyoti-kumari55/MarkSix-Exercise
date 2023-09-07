@@ -17,7 +17,7 @@ body {
 }
  
 h1 {
-    text-align: center;
+    text-align: justify;
     font-size: 50px;
     
 }
@@ -28,14 +28,16 @@ h1 {
     border-width: medium;
     border-color: rgb(85, 58, 58);
     height: 15rem;
-    width: 645px;
     outline: none;
+    width: 70%;
+    
+   
 
 }
 
 .input-message::placeholder {
     font-weight: lighter;
-    font-size: medium;
+    font-size: larger;
 }
 
 button {
@@ -47,7 +49,7 @@ button {
     color: black;
     border-radius: 8.5px;
     border-color: rgb(85, 58, 58);
-    margin: auto;
+    margin: 1rem 1rem ;
     outline: none;
     font-weight: 600;
 
@@ -58,3 +60,15 @@ button:hover {
     color: navy;
 
 }
+
+.output-div {
+    font-size: larger;
+    color: #4a044e;
+}
+
+.footer {
+    text-align: center;
+    text-decoration:solid;
+    width: 70vw;
+}
+
