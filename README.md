@@ -1,2 +1,2 @@
-# NeogCamp-MarkSix
+# MarkSix-Exercises 
  "minions speak" App
